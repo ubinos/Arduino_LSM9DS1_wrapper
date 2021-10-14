@@ -1,0 +1,4 @@
+set(INCLUDE__ARDUINO_LSM9DS1 TRUE)
+
+set_cache_default(ARDUINO_LSM9DS1__BASE_DIR "${PROJECT_LIBRARY_DIR}/Arduino_LSM9DS1" STRING "Arduino LSM9DS1 project base dir")
+

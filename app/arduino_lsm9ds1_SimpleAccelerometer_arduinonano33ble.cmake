@@ -19,8 +19,8 @@ get_filename_component(_tmp_source_dir "${CMAKE_CURRENT_LIST_DIR}/${APP__NAME}" 
 file(GLOB_RECURSE _tmp_sources
     "${_tmp_source_dir}/*.c"
     "${_tmp_source_dir}/*.cpp"
-    "${_tmp_source_dir}/*.S"
-    "${_tmp_source_dir}/*.s")
+    "${_tmp_source_dir}/*.cc"
+    "${_tmp_source_dir}/*.S")
 
-    set(PROJECT_APP_SOURCES ${PROJECT_APP_SOURCES} ${_tmp_sources})
+set(PROJECT_APP_SOURCES ${PROJECT_APP_SOURCES} ${_tmp_sources})
 

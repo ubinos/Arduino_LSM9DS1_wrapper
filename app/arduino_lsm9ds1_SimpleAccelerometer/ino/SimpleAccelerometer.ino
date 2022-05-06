@@ -45,6 +45,8 @@ void loop() {
     Serial.print(y);
     Serial.print('\t');
     Serial.println(z);
+
+    delay(1000);
   }
 }
 

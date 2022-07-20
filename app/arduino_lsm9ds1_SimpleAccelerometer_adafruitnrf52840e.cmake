@@ -7,7 +7,7 @@
 # ubinos_config_info {"name_base": "arduino_lsm9ds1_SimpleAccelerometer", "build_type": "cmake_ubinos", "app": true}
 
 include(${PROJECT_LIBRARY_DIR}/ArduinoCore-API_wrapper/config/arduinocore_api_adafruitnrf52840e.cmake)
-include(${PROJECT_LIBRARY_DIR}/Arduino_LSM9DS1_wrapper/config/adafruit_lsm9ds1.cmake)
+include(${PROJECT_LIBRARY_DIR}/Arduino_LSM9DS1_wrapper/config/arduino_lsm9ds1.cmake)
 
 ####
 
